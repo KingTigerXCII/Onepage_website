@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bastian Winterott</title>
+
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
+    <link href="jquery.fullPage.css" rel="stylesheet" type="text/css"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                sectionsColor: ['#FFFFFF', '#4682B4', '#7BAABE'],
+                anchors:['welcome', 'projects', 'contact']
+            });
+        });
+
+    </script>
+
+</head>
+
+<body>
+
+    <div id="fullpage">
+
+        <div class="section" id="section1">
+                <div class="bwStandardTextblock">
+                    <p>Hi and welcome to my website. My name is Bastian and I'm from Nuremberg, Germany. I work there as a software developer.
+                        Software developer isn't only my job, it also influences my private life. Therefore I'm very interested in new technologies and how they work. As programming
+                        is also one of my passions this website is meant to keep you updated about my side projects.
+                    </p>
+                </div>
+        </div>
+
+        <div class="section" id="section2">
+
+                <!-- Row 1 -->
+                <div class="bwRow">
+
+                    <!-- Column 1 -->
+                    <div class="bwColumn">
+
+                        <h2>Bastian-Winterott.de</h2>
+
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div class="bwColumn">
+
+                        <h2>Coming soon....</h2>
+
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
+
+                    </div>
+
+                </div> <!-- End Row -->
+
+        </div>
+
+        <div class="section" id="section3">
+
+            <div class="bwContact">
+                <span><a href="https://twitter.com/bastiw92"><img src="img/Twitter_Social_Icon_Circle_Color.png" alt="Twitter-Logo"></a></span>
+                <span><a href="https://github.com/hellobasti"><img src="img/github.png" alt="Github-Logo"></a></span>
+                <p>Contact: BastianWinterott@gmail.com</p>
+                <p>Copyright Bastian Winterott</p>
+            </div>            
+            
+        </div>
+
+    </div>
+
+</body>
+
+</html>

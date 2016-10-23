@@ -65,17 +65,14 @@ img {
 
 .bwRow {
 
-    margin: 1.041666666666667% 0;
-    padding: 1.041666666666667% 10.416666666667%;
-    overflow: hidden;
+    padding: 4.166666666667% 10.416666666667%;
 
 }
 
 .bwColumn {
 
-    float: none;
     width: 100%;
-    padding: 1.041666666666667% 1.041666666666667%;
+    padding: 4.166666666667% 1.041666666666667%;
     text-align: left;
 
 }
@@ -89,12 +86,6 @@ img {
 
 }
 
-.bwColumn img {
-    height: 300px; /* TODO */
-    margin: 1.041666666666667% 0;
-
-}
-
 .bwStandardTextblock {
 
     margin: 1.041666666666667% 10.416666666667%;
@@ -103,7 +94,6 @@ img {
 
 .bwContact {
 
-    padding: 1.041666666666667%;
     text-align: center;
 
 }
@@ -128,18 +118,6 @@ img {
 }
 
 @media all and (min-width: 1080px) {
-
-    header nav ul li {
-
-        width: 12.5%;
-
-    }
-
-    header nav ul {
-
-        display: flex;
-
-    }
 
     .bwColumn {
 

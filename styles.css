@@ -63,24 +63,10 @@ img {
 
 }
 
-.bwRow {
-
-    padding: 4.166666666667% 10.416666666667%;
-
-}
-
-.bwColumn {
-
-    width: 100%;
-    padding: 4.166666666667% 1.041666666666667%;
-    text-align: left;
-
-}
-
-.bwColumn h2 {
+.bwStandardTextblock h2 {
 
     font-size: 1.2em;
-    padding: 0 0 1.041666666666667%;
+    padding: 0 0 2.083333333333%;
     font-weight: bold;
     text-transform: uppercase;
 

@@ -97,18 +97,18 @@ img {
 
     .bwContact img {
 
-        width: 3.333333333333%;
-        height: 3.333333333333%;
+        width: 4.166666666667%;
+        height: 4.166666666667%;
 
     }
 }
 
 @media all and (min-width: 1080px) {
 
-    .bwColumn {
+    .bwContact img {
 
-        float: left;
-        width: 50%;
+        width: 3.125%;
+        height: 3.125%;
 
     }
 

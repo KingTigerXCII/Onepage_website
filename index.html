@@ -19,6 +19,8 @@
                 sectionsColor: ['#FFFFFF', '#4682B4', '#7BAABE', '#FFFFFF'],
                 anchors:['welcome', 'projectsBwde', 'projectsComingSoon', 'contact'],
                 navigation: true,
+                slidesNavigation: true,
+                slidesNavPosition: 'bottom',
                 onLeave: function(index, nextIndex, direction){
                     var leavingSection = $(this);
 
@@ -75,14 +77,13 @@
                         <p>
                             Hi and welcome to my website. My name is Bastian and I work as a software developer in Nuremberg, Germany. Software developing isn't only my job, 
                             it also influences my private life. Therefore I'm very interested in new technologies and how they work. Since I'm a software developer I like books too. :)
-                            As programming is one of my passions, this website is meant to keep you updated about my private side projects.
-                            
+                            As programming is one of my passions, this website is meant to keep you updated about my private side projects.                            
                         </p>
                     </div>
 
                     <div class="bwStandardTextblock">
                         <p>
-                            Thank you for visiting my website. I hope you like it.    
+                            Thank you for visiting my website. I hope you like it. 
                         </p>
                     </div>
 
@@ -92,16 +93,43 @@
 
         <div class="section" id="section2">
 
-            <div id="bwSection2">
+            <div class="slide">
 
-                <div class="bwStandardTextblock">
+                <div id="bwSection2">
 
-                    <h2>My first Side-Project</h2>
+                    <div class="bwStandardTextblock">
 
-                    <p>
-                        Right now you can see my first side-project (which I have finished :) ) - the website you're visiting. 
-                        I used the great plugin <a href="https://github.com/alvarotrigo/fullPage.js">fullPage.js</a> to create it.
-                    </p>
+                        <h2>My first Side-Project</h2>
+
+                        <p>
+                            Right now you can see my first side-project (which I have finished :) ) - the website you're visiting. 
+                            I used the great plugin <a href="https://github.com/alvarotrigo/fullPage.js">fullPage.js</a> to create it.
+                            The plugin supports you at creating a one page side. A few steps later you have a full functioning
+                            website and I think, it looks amazing.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="slide">
+
+                <div id="bwSection2">
+
+                    <div class="bwStandardTextblock">
+
+                        <h2>My first Side-Project</h2>
+
+                        <p>
+                            Right now you can see my first side-project (which I have finished :) ) - the website you're visiting. 
+                            I used the great plugin <a href="https://github.com/alvarotrigo/fullPage.js">fullPage.js</a> to create it.
+                            The plugin supports you at creating a one page side. A few steps later you have a full functioning
+                            website and I think, it looks amazing.
+                        </p>
+
+                    </div>
 
                 </div>
 
@@ -136,7 +164,8 @@
                     <span><a href="https://twitter.com/bastiw92"><img src="img/Twitter_Social_Icon_Circle_Color.png" alt="Twitter-Logo"></a></span>
                     <span><a href="https://github.com/hellobasti"><img src="img/github.png" alt="Github-Logo"></a></span>
                     <p>Contact: BastianWinterott@gmail.com</p>
-                    <p>Copyright © Bastian Winterott</p>
+                    <p>Copyright © Bastian Winterott - <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/de/deed.en">cc</a></p>
+                    <p>Plugin by <a href="https://github.com/alvarotrigo/fullPage.js">alvarotrigo</a></p>
                 </div>  
 
             </div>          
